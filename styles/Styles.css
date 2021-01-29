@@ -110,3 +110,24 @@
     height: 20px;
     width: 15px;
 }
+/* Buttons Style */
+#btns{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+#btns input{
+    margin: 10px;
+    padding: 10px;;
+    background-color: #f8f9fa;
+    outline: none;
+    border: none;
+    color:#707070 ;
+    font-size: 15px;
+}
+#btns input:hover{
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgb(194, 194, 194); 
+}
